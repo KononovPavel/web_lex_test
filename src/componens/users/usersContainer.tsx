@@ -11,7 +11,7 @@ const UsersContainer = () => {
     const currentPage = useSelector<AppStateType, number>(state => state.users.currentPage)
     const pageSize = useSelector<AppStateType, number>(state => state.users.pageSize)
     if(!users.length) {
-            return <Preloader/>
+            return <div>Нет данных</div>
     }
      let currentUsers = [...users];
      currentUsers =  currentUsers.splice((currentPage-1)*pageSize,pageSize)
