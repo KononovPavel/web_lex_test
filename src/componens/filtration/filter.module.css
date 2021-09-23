@@ -1,0 +1,30 @@
+.filter {
+    display: flex;
+    margin-bottom: 60px;
+    min-width: 500px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+select {
+    width: 140px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.option{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn {
+    padding: 5px;
+    background: #6dcaff;
+    border: 1px solid;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.error{
+    color: red;
+    font-size: 16px;
+}

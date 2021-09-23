@@ -1,0 +1,16 @@
+.paginator {
+    margin-top: 20px;
+}
+.notSelected {
+    border: 1px solid teal;
+    padding: 5px 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.selected {
+    border: 1px solid teal;
+    padding: 5px 10px;
+    margin-left: 2px;
+    background: #ff9797;
+    cursor: pointer;
+}
